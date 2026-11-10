@@ -88,7 +88,7 @@ if ($PSScriptRoot -and (Test-Path (Join-Path $PSScriptRoot "diagnose-crash\SKILL
     Write-Host "[*] Running from local repository: $sourceSkillsDir" -ForegroundColor Gray
 } else {
     Write-Host "[*] Running in remote/in-memory mode. Downloading latest release..." -ForegroundColor Yellow
-    $zipUrl = "https://github.com/llIIllIID0EIIllIIll/agy-skills/archive/refs/heads/main.zip"
+    $zipUrl = "https://github.com/vuhuudo/agy-skills/archive/refs/heads/main.zip"
     $tempZip = Join-Path $env:TEMP "agy-skills-$([Guid]::NewGuid().ToString('N')).zip"
     $tempFolder = Join-Path $env:TEMP "agy-skills-$([Guid]::NewGuid().ToString('N'))"
     

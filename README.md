@@ -9,7 +9,7 @@ A curated collection of production-ready skills for **Google Antigravity (AGY)**
 Open **PowerShell** on any Windows machine and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/llIIllIID0EIIllIIll/agy-skills/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/vuhuudo/agy-skills/main/install.ps1 | iex
 ```
 
 The zero-config installer automatically:
@@ -25,7 +25,7 @@ If you prefer to clone the repository or install offline:
 
 1. Clone or download this repository:
    ```powershell
-   git clone https://github.com/llIIllIID0EIIllIIll/agy-skills.git
+   git clone https://github.com/vuhuudo/agy-skills.git
    cd agy-skills
    ```
 2. Run the installer:

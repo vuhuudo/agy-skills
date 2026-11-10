@@ -25,7 +25,7 @@ if (-not $cli) {
     $candidates = @("$env:LOCALAPPDATA\agy\bin\officecli.exe", "$env:LOCALAPPDATA\OfficeCLI\officecli.exe")
     $cliPath = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
     if (-not $cliPath) {
-        throw "Không tìm thấy OfficeCLI. Vui lòng cài đặt: irm https://raw.githubusercontent.com/llIIllIID0EIIllIIll/agy-skills/main/install.ps1 | iex"
+        throw "Không tìm thấy OfficeCLI. Vui lòng cài đặt: irm https://raw.githubusercontent.com/vuhuudo/agy-skills/main/install.ps1 | iex"
     }
 } else {
     $cliPath = $cli.Source
